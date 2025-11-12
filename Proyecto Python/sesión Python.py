@@ -1,14 +1,15 @@
-usuario = input("Ingrese su usuario: ")
-password = input("Ingrese su contraseña: ")
+#cant_vueltas = 1
+'''
+while cant_vueltas <= 10:
+    print("Esta es la vuelta número", cant_vueltas)
+    cant_vueltas += 1
+'''
+'''
+for cant_vueltas in range(1, 11):
+    print("Esta es la vuelta número", cant_vueltas)
 
-if (usuario == "usuario1" and password == "password"):
-    print("el usuario pudo ingresar en el sistema")
+'''
+lista_de_nombres = ["Ana", "Luis", "Carlos", "María"]
 
-elif (usuario != "usuario1" and password == "password"):
-    print("El usuario no existe en el sistema")
-
-elif (usuario == "usuario1" and password != "password"):
-    print("la contraseña es incorrecta")
-
-else:
-    print("el usuario no pudo ingresar en el sistema")
+for nombre in lista_de_nombres:
+    print("Hola", nombre)
